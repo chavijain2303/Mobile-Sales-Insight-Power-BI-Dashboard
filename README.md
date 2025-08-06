@@ -1,6 +1,10 @@
 📊 Mobile Sales Insights Dashboard — Power BI Project
+---
+---
 📁 Project Overview
 The Mobile Sales Insights Dashboard is an interactive Power BI report designed to provide a comprehensive analysis of mobile sales performance across cities, mobile models, payment methods, and customer behaviors. This dashboard enables businesses to identify sales trends, optimize inventory, and make informed strategic decisions.
+---
+---
 
 🎯 Problem Statement
 The organization requires a centralized and visually appealing dashboard to:
@@ -15,6 +19,9 @@ Understand customer preferences through ratings and buying behavior.
 
 Provide dynamic filters for in-depth data exploration.
 
+---
+---
+
 📝 Purpose of Dashboard
 Track overall Sales Performance & KPIs.
 
@@ -25,6 +32,9 @@ Identify Top-Selling Mobile Models and Payment Preferences.
 Analyze Customer Ratings & Buying Patterns.
 
 Enable Interactive Filtering by Model, Brand, Payment Method, and Date.
+
+---
+---
 
 📊 Key KPIs & Metrics
 Total Sales (₹)
@@ -47,6 +57,9 @@ Transactions by Payment Method
 
 Customer Ratings Distribution (1-5 Stars)
 
+---
+---
+
 📈 Visualizations in Dashboard
 Chart Type	Description
 Cards	Total Sales, Quantity Sold, Transactions, Average Price per Unit
@@ -58,11 +71,16 @@ Funnel Chart	Customer Ratings Distribution (1 to 5 Stars)
 Area Chart	Total Sales by Day Name
 Scatter Chart	Units Sold vs Price per Unit by Brand
 
+---
+---
+
 🛠️ Steps to Build the Dashboard
 Step 1: Import Data
 Import Mobile Sales Data into Power BI.
 
 Validate fields: Date, Brand, City, Mobile Model, Units Sold, Total Sales, Price per Unit, Transactions, Ratings, Payment Method.
+
+---
 
 Step 2: Data Transformation (Power Query)
 Set correct Data Types (Date, Currency, Whole Numbers, Text).
@@ -70,6 +88,8 @@ Set correct Data Types (Date, Currency, Whole Numbers, Text).
 Extract Month Name & Day Name from Date.
 
 Remove unnecessary columns.
+
+---
 
 Step 3: UI Customization
 Import Mobile Icon/Logo and place it at the Top-Left Corner.
@@ -84,6 +104,8 @@ Top KPI Cards
 
 Main Chart Area
 
+---
+
 Step 4: Slicers
 Add a Month Name Slicer (Single Select Mode).
 
@@ -97,6 +119,8 @@ Payment Method
 
 Day Name
 
+---
+
 Step 5: Create DAX Measures
 DAX
 Copy
@@ -105,6 +129,9 @@ Total Sales = SUMX('Mobile Sales Data', 'Mobile Sales Data'[Units Sold] * 'Mobil
 Total Quantity = SUM('Mobile Sales Data'[Units Sold])
 Total Transactions = COUNTROWS('Mobile Sales Data')
 Average Price = AVERAGE('Mobile Sales Data'[Price Per Unit])
+
+---
+
 Step 6: Visualization Implementation
 Cards for KPIs (Total Sales, Quantity, Transactions, Average Price).
 
