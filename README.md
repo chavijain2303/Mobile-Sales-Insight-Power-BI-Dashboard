@@ -1,12 +1,12 @@
-##📊 Mobile Sales Insights Dashboard — Power BI Project
+📊 Mobile Sales Insights Dashboard — Power BI Project
 ---
 ---
-##📁 Project Overview
+📁 Project Overview
 The Mobile Sales Insights Dashboard is an interactive Power BI report designed to provide a comprehensive analysis of mobile sales performance across cities, mobile models, payment methods, and customer behaviors. This dashboard enables businesses to identify sales trends, optimize inventory, and make informed strategic decisions.
 ---
 ---
 
-##🎯 Problem Statement
+🎯 Problem Statement
 The organization requires a centralized and visually appealing dashboard to:
 
 - Monitor sales KPIs at a glance.
@@ -22,7 +22,7 @@ The organization requires a centralized and visually appealing dashboard to:
 ---
 ---
 
-##📝 Purpose of Dashboard
+📝 Purpose of Dashboard
 - Track overall Sales Performance & KPIs.
 
 - Visualize Sales Distribution across Cities & Time Periods.
@@ -36,7 +36,7 @@ The organization requires a centralized and visually appealing dashboard to:
 ---
 ---
 
-##📊 Key KPIs & Metrics
+📊 Key KPIs & Metrics
 -1. Total Sales (₹)
 
 -2. Total Quantity Sold (Units)
@@ -60,7 +60,7 @@ The organization requires a centralized and visually appealing dashboard to:
 ---
 ---
 
-##📈 Visualizations in Dashboard
+📈 Visualizations in Dashboard
 
 -Cards: Total Sales, Quantity Sold, Transactions, Average Price per Unit
 -Map Chart: Total Sales by City (Bubble Size by Sales Value)
@@ -74,7 +74,7 @@ The organization requires a centralized and visually appealing dashboard to:
 ---
 ---
 
-##🛠️ Steps to Build the Dashboard
+🛠️ Steps to Build the Dashboard
 Step 1: Import Data
 -Import Mobile Sales Data into Power BI.
 
@@ -151,7 +151,7 @@ Step 6: Visualization Implementation
 ---
 
 
-##🖥️ Tools & Technologies Used
+🖥️ Tools & Technologies Used
 -Microsoft Power BI Desktop
 
 -Power Query Editor
@@ -165,7 +165,7 @@ Step 6: Visualization Implementation
 ---
 ---
 
-##🚀 Outcome & Impact
+🚀 Outcome & Impact
 -Real-time insights into sales trends across various dimensions.
 
 -Data-driven decisions for inventory planning & marketing strategies.
@@ -177,7 +177,7 @@ Step 6: Visualization Implementation
 ---
 ---
 
-##📌 Notes
+📌 Notes
 -Ensure data is refreshed periodically for up-to-date analysis.
 
 -Adjust chart colors and themes as per brand guidelines if required.
@@ -187,7 +187,7 @@ Step 6: Visualization Implementation
 ---
 ---
 
-##📧 Contact
+📧 Contact
 -For any queries or customization support:
 Chavi Jain
 📩 chavijain2303@gmail.com
