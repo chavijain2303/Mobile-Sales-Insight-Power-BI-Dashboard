@@ -65,12 +65,13 @@ The organization requires a centralized and visually appealing dashboard to:
   - Mobile Model
   - Brand
   - Payment Method
+  - Day Name
     
 ### Step 5: Create DAX Measures
--Total Sales = SUMX('Mobile Sales Data', 'Mobile Sales Data'[Units Sold] * 'Mobile Sales Data'[Price Per Unit])
--Total Quantity = SUM('Mobile Sales Data'[Units Sold])
--Total Transactions = COUNTROWS('Mobile Sales Data')
--Average Price = AVERAGE('Mobile Sales Data'[Price Per Unit])
+- Total Sales = SUMX('Mobile Sales Data', 'Mobile Sales Data'[Units Sold] * 'Mobile Sales Data'[Price Per Unit])
+- Total Quantity = SUM('Mobile Sales Data'[Units Sold])
+- Total Transactions = COUNTROWS('Mobile Sales Data')
+- Average Price = AVERAGE('Mobile Sales Data'[Price Per Unit])
 
 ### Step 6: Visualization Implementation
 - Cards for KPIs (Total Sales, Quantity, Transactions, Average Price)
@@ -106,4 +107,4 @@ For any queries or customization support:
 📩 chavijain2303@gmail.com 
   - Day Name
 
-### Step 5: Create DAX Measures
+
