@@ -105,6 +105,5 @@ The organization requires a centralized and visually appealing dashboard to:
 For any queries or customization support:  
 **Chavi Jain**  
 📩 chavijain2303@gmail.com 
-  - Day Name
 
 
